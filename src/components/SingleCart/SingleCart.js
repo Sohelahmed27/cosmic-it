@@ -14,6 +14,7 @@ const SingleCart = (props) => {
           <h4 className='mx-3'>{name}</h4>
           <p>{publishDate}</p>
         </div>
+       
       </div>
       <div className='d-flex'>
         <p className='m-3'>{readTime}</p>
@@ -22,6 +23,7 @@ const SingleCart = (props) => {
       </div>
       </div>
       <h3>{title}</h3>
+      <button className="btn btn-link">Mark as read</button>
     </div>
   );
 };
