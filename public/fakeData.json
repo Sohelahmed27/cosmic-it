@@ -1,0 +1,32 @@
+[  
+  {    
+    "id": 1,  
+    "title": "Introduction to React",
+    "coverImage": "https://trickbd.com/wp-content/uploads/2021/01/28/1611773495348.jpg",
+    "authorImage": "https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?w=740t=st=1680237711~exp=1680238311~hmac=9a5443d93a5a6ec13b0ce1d5423e01569570e023e94dff9bb15ea993afa2f08d",
+    "readTime": "10 minutes",
+    "publishDate": "2023-03-31" 
+  },
+  { 
+       "id": 2,
+       "title": "How to Use Redux with React",
+       "coverImage": "https://trickbd.com/wp-content/uploads/2022/10/18/1.jpg",    
+       "authorImage": "https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=740&t=st=1680237801~exp=1680238401~hmac=892ccdc9ae03672745cb8d2cc01ed7c4e49aff94b4301e6a7566aef67374d140",
+      "readTime": "15 minutes",
+       "publishDate": "2022-04-01"
+  },
+    {  
+        "id": 3,  
+        "title": "CSS Tricks for Beginners",
+        "coverImage": "https://trickbd.com/wp-content/uploads/2015/08/Thumb-1.jpeg",    
+        "authorImage": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=740&t=st=1680237904~exp=1680238504~hmac=e73c77f5deebd923b8f2c95bbfad28514a4c1fb061a0844076a90469164b3457",
+        "readTime": "8 minutes",    
+        "publishDate": "2023-02-02"  },
+    {  
+        "id": 4,  
+        "title": "JS Tricks for Beginners",
+        "coverImage": "https://topicsbangla.com/wp-content/uploads/2022/09/codinggf5306e7c112801200x630-min-780x470.jpg",
+        "authorImage": "https://img.freepik.com/free-photo/photo-attractive-ginger-man-with-satisfied-expression-has-thick-beard_273609-18615.jpg?w=740&t=st=1680238232~exp=1680238832~hmac=a40e9c5fefc8331b5db66893194259d23cb4c55025b310f74471d3ac68879763",
+        "readTime": "14 minutes",    
+        "publishDate": "2022-12-02" 
+    }]
