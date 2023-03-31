@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="home-container">
     <div className="blogs-container">
-      <h1>Blogs:{blogs.length}</h1>
+     
       {
         blogs.map(blog =><SingleCart blog={blog}></SingleCart>)
       }

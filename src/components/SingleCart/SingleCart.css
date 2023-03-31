@@ -1,0 +1,25 @@
+.cover-img{
+  width: 845px;
+  height: 450px;
+  border-radius: 8px;
+}
+.author-img{
+  width:60px;
+  height: 60px;
+  border-radius: 30px;
+
+}
+.author-info{
+  margin-left:120px;
+  margin-right:120px;
+  margin-top: 30px;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.single-cart{
+  margin-top:30px;
+}
