@@ -7,12 +7,8 @@ const SingleCart = (props) => {
  
   const {name, title, authorImage, coverImage, publishDate, readTime} = props.blog;
   const readingTime = props.readingTime;
-  //  let readingBlogTime = 0;
+  const handleBookmark = props.handleBookmark;
   
-  // const readingTime=(blog)=>{
-  // console.log(blog.readTime);
-  
-  // }
   return (
     <div className='single-cart'>
       <img className='cover-img' src={coverImage} alt="" />
@@ -30,7 +26,7 @@ const SingleCart = (props) => {
         <p className='m-3'>{readTime} minutes</p>
        
         {/* <button className='btn btn-light'> <img className='icon' src="https://cdn-icons-png.flaticon.com/512/10257/10257828.png" alt="" /></button> */}
-        <button className='btn btn-light'>
+        <button onClick={() =>handleBookmark(props.blog)} className='btn btn-light'>
         <FontAwesomeIcon icon={faBookmark} /></button>
       </div>
       </div>
