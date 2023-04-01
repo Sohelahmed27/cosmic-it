@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Blogs from '../articles/Blogs';
-import Articales from '../articles/Blogs';
+
 import SideCart from '../SideCart/SideCart';
 import SingleCart from '../SingleCart/SingleCart';
 import './Home.css'
@@ -45,6 +45,7 @@ const Home = () => {
     </div>
     <div className="summery-container">
     <p>product:{cart.length}</p>
+    <SideCart cart={cart}></SideCart>
       
     </div>
       

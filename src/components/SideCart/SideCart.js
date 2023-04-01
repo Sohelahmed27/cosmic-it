@@ -1,12 +1,18 @@
 import React from 'react';
 
-const SideCart = (props) => {
-  const {time}=props;
-  // const {readingTime}= props.readingTime;
+const SideCart = ({cart}) => {
+  console.log(cart)
+  let total =0;
+  for(const times of cart){
+    
+     total = total + times.readTime;
+  }
+
+ 
   return (
-    <div>
-      <h3>Dash Board</h3>
-      <h4>Total Spent time on Read :{time} min</h4>
+    <div className='card'>
+      <h4>Dash Board</h4>
+      <h5>Total Reading time :{total} min</h5>
     </div>
   );
 };
